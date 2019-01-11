@@ -1,18 +1,18 @@
 создать файл .env
 
-Выполнить в командной строке
-composer install
-npm install
-npm run dev
-php artisan make:auth
-php artisan migrate
-php artisan db:seed
+Выполнить в командной строке<br>
+composer install<br>
+npm install<br>
+npm run dev<br>
+php artisan make:auth<br>
+php artisan migrate<br>
+php artisan db:seed<br>
 
-Последняя команда генерит 5 статей, если мало можно еще раза запустить seeder для статей отдельно:
+Последняя команда генерит 5 статей, если мало можно еще раза запустить seeder для статей отдельно:<br>
 php artisan db:seed --class=PostsTableSeeder
 
-Админ:
-admin@admin.com
-qwerty
+Админ:<br>
+admin@admin.com<br>
+qwerty<br>
 
 регистрация закрыта
