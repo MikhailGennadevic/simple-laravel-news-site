@@ -4,6 +4,7 @@
 composer install<br>
 npm install<br>
 npm run dev<br>
+php artisan key:generate<br>
 php artisan make:auth<br>
 php artisan migrate<br>
 php artisan db:seed<br>
