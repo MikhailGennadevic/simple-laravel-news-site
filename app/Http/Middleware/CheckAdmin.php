@@ -19,5 +19,6 @@ class CheckAdmin
         if (!$user || $user->type != 1) {
             return redirect()->route('home');
         }
+        return $next($request);
     }
 }
